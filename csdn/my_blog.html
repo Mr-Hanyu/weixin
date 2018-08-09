@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>我的文章</title>
+	<meta name="viewport" content="width=device-width, user-scalable=1.0, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<script type="text/javascript" src="./js/jquery-3.2.0.min.js"></script>
+	<script type="text/javascript" src="./js/vue.js"></script>
+	<link rel="stylesheet" type="text/css" href="./css/user.css">
+	<style type="text/css">
+		.container .del, .container .mod{
+			width: 60px;
+			height: 30px;
+			line-height: 30px;
+			display: inline-block;
+		}
+	</style>
+</head>
+<body>
+	<div id="blog">
+		<div class="header">
+			<img src="./images/csdn.png">我的文章
+			<a class="user" href="#" ref="user"><img src="./images/zoro.jpg"></a>
+		</div>
+		<div class="container">
+			<div class="user-list">
+				<a href="#" v-for="item in myBlogList">
+					{{ item.title }}
+					<button class="del">删除</button>
+					<button class="mod">修改</button>
+				</a>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">
+		var myBlog = new Vue({
+			el: "#blog",
+			data: {
+				myBlogList: []
+			},
+			mounted: function(){
+				this.getMyBlog();
+			},
+			methods: {
+				getMyBlog: function(){
+					var that = this;
+					$.ajax({
+						"url": "http://blog.com/api/blog/myBlog",
+						"type": "post",
+						"dataType": "json",
+						"data": {
+							user_id: window.localStorage.user_id
+						},
+						success: function(res){
+							that.myBlogList = res.data.my_blog_lists;
+						},
+						error: function(res){
+							console.log(res.error_code);
+						}
+
+					})
+				}
+			}
+		})
+	</script>
+</body>
+</html>
