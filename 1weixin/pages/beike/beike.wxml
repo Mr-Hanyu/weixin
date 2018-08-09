@@ -1,0 +1,106 @@
+<!--pages/beike/beike.wxml-->
+<view class='wrapper'>
+  <text class='top-title'>{{mainInfo.data.house_info.title}}</text>
+  <text class='s-title'>商铺</text>
+  <text class='s-title'>商铺</text>
+  <text class='ss-title'>别名：{{mainInfo.data.house_info.seTitle}}</text>
+  <view class='img' wx:for="{{mainInfo.data.house_info.images}}" wx:key=""><image src="{{item.image_path}}"></image></view>
+  <view style='height:46px;'>
+    <view class='house'><text class='house-a'>售价</text><text class='house-b'>{{mainInfo.data.house_info.price}}万</text></view>
+    <view class='house'><text class='house-a'>房型</text><text class='house-b'>{{mainInfo.data.house_info.type}}</text></view>
+    <view class='house'><text class='house-a'>建筑面积</text><text class='house-b'>{{mainInfo.data.house_info.area}}㎡</text></view>
+  </view>
+  <view class='time'>开盘时间：{{mainInfo.data.house_info.open_time}}</view>
+  <view class='time'>地址：{{mainInfo.data.house_info.address}}</view>
+  <view class='zhekou'>
+  <text class='zhe'>全款9.8折，贷款9.9折</text>
+ </view>
+  <view class='xinxi'>
+  <text class='xin'>更多房源信息</text>
+  </view>
+  <view class='type'>
+  <view style='height:30px;'>
+    <view  style=' float:left;' wx:for="{{mainInfo.data.typs_conditions}}" wx:key="">
+      <text class='shiting' style='margin-right:15px;'>{{item.name}}</text>
+    </view>
+  </view>
+    <view class='list'>
+      <image src="../img/QQ截图20180510170824.png"></image>
+      <view class='house-xinxi'>
+        <text class='xinxi-a'>四室一厅两卫</text><text class='s-title'>在售</text>
+        <text class='xinxi-b'>建面191㎡/南北向</text>
+        <text class='xinxi-c'>多卫</text>
+        <text class='xinxi-d'>约1630万/套</text>
+      </view>
+    </view>
+    <view class='list'>
+      <image src="../img/QQ截图20180510170824.png"></image>
+      <view class='house-xinxi'>
+        <text class='xinxi-a'>四室一厅两卫</text><text class='s-title'>在售</text>
+        <text class='xinxi-b'>建面191㎡/南北向</text>
+        <text class='xinxi-c'>多卫</text>
+        <text class='xinxi-d'>约1630万/套</text>
+      </view>
+    </view>
+    <scroll-view class='list' scroll-x style="width: 100%">
+      <image src="../img/QQ截图20180510170824.png"></image>
+      <view class='house-xinxi'>
+        <text class='xinxi-a'>四室一厅两卫</text><text class='s-title'>在售</text>
+        <text class='xinxi-b'>建面191㎡/南北向</text>
+        <text class='xinxi-c'>多卫</text>
+        <text class='xinxi-d'>约1630万/套</text>
+      </view>
+    </scroll-view>
+  </view>
+  <view class='say'>
+    <text class='user'>用户评论</text>
+    <text class='more'>更多评论</text>
+    <view class='item'>
+      <text class='all'>全部评论</text><text class='all'>全部评论</text><text class='all'>全部评论</text><text class='all'>全部评论</text><text class='all'>全部评论</text><text class='all'>全部评论</text><text class='all'>全部评论</text>
+    </view>
+<view class='user-say' wx:for='{{mainInfo.data.comments.comment}}'wx:key=''>
+      <image src="{{item.user_image}}"></image>
+      <view class='name'>
+        <text class='name-a'>{{item.user_name}}</text>
+        <text class='name-b'>{{item.user_score[0].name}}{{item.user_score[0].score}}丨{{item.user_score[1].name}}{{item.user_score[1].score}}丨{{item.user_score[2].name}}{{item.user_score[2].score}}</text>
+      </view>
+      <text style='font-size:16px;'>{{item.user_comment}}</text>
+      <text class='time-a'>全文</text>
+      <text class='time-a'>{{item.create_time}}</text>
+    </view>
+  </view>
+  <view class='buy'>
+    <view class='buy-all'>
+        <text class='buy-user'>买房问大家</text>
+        <text class='buy-look'>查看全部</text>
+    </view> 
+    <view wx:for="{{mainInfo.data.questions}}" wx:key="">  
+       <view class='wen'><text class='wen-img'>问</text></view>
+       <text class='da'>{{item.question}}</text>
+       <text class='guanzhu'>{{item.attention_num}}人关注 | {{item.answer_num}}个回答</text>
+       <view class='borde'></view>
+    </view>
+  </view>
+  <view class='aroud'>
+    <view class='aroud-all'>
+        <text class='aroud-a'>周边推荐</text>
+        <text class='aroud-b'>更多推荐</text>
+    </view>
+    <view class='cont-li'>
+      <view class='li' wx:for='{{mainInfo.data.hotlists}}'>
+        <image src="{{item.image}}"></image>
+        <view class='recommend-descipt'>
+          <view class='recommend-des-title'>{{item.title}}</view>
+          <view class='style-gn'>住宅</view>
+          <view class='rem-address'>{{item.address}}</view>
+          <view class='price'>均价{{item.uprice}}元/平 </view>
+        </view>
+      </view>      
+    </view>
+  </view>
+  <view class='permit'>预售许可证： 京房售证字（2017）7号</view>
+    <view class='footer'>
+      <view class='favourable'>讯优惠</view>
+      <view class='askP'>联系售楼处</view>
+  </view>
+</view>

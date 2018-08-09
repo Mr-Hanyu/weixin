@@ -1,0 +1,353 @@
+/* pages/beike/beike.wxss */
+.wrapper{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.top-title{
+  font-size: 22px;
+  color: #101D37;
+  letter-spacing: 0;
+  line-height: 22px;
+}
+.s-title{
+  border: 1px solid white;
+  background: white;
+  font-size: 11px;
+  color: #B199FF;
+  letter-spacing: -0.27px;
+  text-align: center;
+  margin-left: 8px;
+}
+.ss-title{
+  margin-top: 8px;
+  display: block;
+  font-size: 13px;
+  color: #6B7072;
+  letter-spacing: 0;
+  line-height: 18px;
+  margin-bottom: 10px;
+}
+.img{
+   margin-top: 8px；
+}
+.img image{
+  width:100%;
+  height:160px;
+  display:inline-block;
+  overflow:hidden;
+ 
+}
+.house{
+  width: 33.3%;
+  float: left;
+}
+.house .house-a{
+  font-size: 13px;
+  color: #9399A5;
+  letter-spacing: 0;
+}
+.house .house-b{
+   display: block;
+   font-size: 16px;
+   color: #FA5741;
+   letter-spacing: 0;
+}
+.time{
+  height: 22px;
+  margin-top: 12px;
+  font-size: 15px;
+  color: #394043;
+  letter-spacing: 0;
+  line-height: 22px;
+  margin-bottom: 12px;
+}
+.zhekou{
+  background: #F8F8F9;
+  border-radius: 2px;
+  height: 50px;
+  margin-bottom: 15PX;
+}
+.zhe{
+  display: block;
+  font-size: 13px;
+  color: #FA5741;
+  text-align: center;
+  line-height: 50px;
+}
+.xinxi{
+  background: #F8F8F9;
+  border-radius: 2px;
+  height: 50px;
+}
+.xin{
+  display: block;
+  font-size: 13px;
+  color: #3072F6;
+  text-align: center;
+  line-height: 50px;
+}
+.type{
+  margin-top: 10px;
+}
+.type .shiting{
+  font-family: PingFangSC-Medium;
+  font-size: 19px;
+  color: #3072F6;
+}
+.list{
+  margin-top: 10px;
+}.list image{
+  width:105px;
+  height:80px;
+
+}
+.list .house-xinxi{
+  float: right;
+  width: 160px;
+  height: 80px;
+  margin-right:20px;
+  margin-top:-7px;
+
+}
+.list .house-xinxi .xinxi-a{
+  font-family: PingFangHK-Medium;
+  font-size: 16px;
+  color: #394043;
+  letter-spacing: 0;
+}
+.list .house-xinxi .xinxi-b{
+  display: block;
+  font-family: PingFangHK-Regular;
+  font-size: 12px;
+  color: #6B7072;
+  letter-spacing: 0;
+  line-height: 17px;
+}
+.list .house-xinxi .xinxi-c{
+  border: 1px solid #9C9FA1;
+  background: white;
+  font-size: 11px;
+  color: #9C9FA1;
+  letter-spacing: -0.27px;
+  text-align: center;
+}
+.list .house-xinxi .xinxi-d{
+  display: block;
+  font-family: PingFangSC-Medium;
+  font-size: 16px;
+  color: #FE615A;
+  letter-spacing: 0;
+}
+.say .user{
+  font-family: PingFangHK-Medium;
+  font-size: 19px;
+  color: #101D37;
+  letter-spacing: -0.46px;
+}
+.say .more{
+  float: right;
+  font-family: PingFangSC-Regular;
+  font-size: 13px;
+  color: #9399A5;
+  letter-spacing: 0;
+  line-height: 28px;
+}
+.item{
+  margin-top: 10px;
+}
+.all{
+  margin-left: 25px;
+  background: #F3F4F5;
+  border-radius: 50px;
+ font-size: 13px;
+}
+.user-say{
+  margin-top: 15px;
+}
+.user-say image{
+  width: 40px;
+  height: 37px;
+}
+.name{
+  float: right;
+  margin-left: 10px;
+  width: 120px;
+  height: 38px;
+  margin-right:162px;
+
+}
+.name .name-a{
+  font-family: PingFangHK-Medium;
+  font-size: 16px;
+  color: #101D37;
+  letter-spacing: -0.46px
+}
+.name .name-b{
+  display: block;
+  font-family: PingFangHK-Regular;
+  font-size: 12px;
+  color: #9399A5;
+  letter-spacing: -0.29px;
+  width: 1000px;
+}
+.time-a{
+  display: block;
+  margin-top: 8px;
+  font-family: PingFangSC-Regular;
+  font-size: 13px;
+  color: #859BAE;
+  letter-spacing: 0;
+  text-align: left;
+}
+.buy{
+  margin-top: 15px;
+}
+.buy.buy-user{
+  font-family: PingFangSC-Medium;
+  font-size: 19px;
+  color: #394043;
+  letter-spacing: -0.46px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+.buy .buy-look{
+  float: right;
+  font-family: PingFangSC-Regular;
+  font-size: 13px;
+  color: #9399A5;
+  letter-spacing: 0;
+  line-height: 28px;
+}
+.buy-all{
+  margin-bottom: 10px;
+}
+.buy .wen{
+  float: left;
+  margin-right: 8px;
+}
+.wen .wen-img{
+  border: 1px solid #FA5741;
+  background: #FA5741;
+  color: white;
+
+}
+.da{
+  display: block;
+  font-family: PingFangSC-Medium;
+  font-size: 16px;
+  color: #394043;
+  letter-spacing: 0;
+  margin-left: 25px;
+}
+.guanzhu{
+  font-family: PingFangSC-Regular;
+  font-size: 13px;
+  color: #9C9FA1;
+  letter-spacing: 0;
+  line-height: 13px;
+  margin-left: 25px;
+}
+.borde{
+  border-bottom: 1px solid #9C9FA1;
+  width: 100%;
+  height: 0px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.aroud{
+  margin-top: 15px;
+}
+.aroud-all .aroud-a{
+  font-family: PingFangHK-Medium;
+  font-size: 19px;
+  color: #101D37;
+  letter-spacing: -0.46px;
+}
+.aroud-all .aroud-b{
+  float: right;
+  font-family: PingFangSC-Regular;
+  font-size: 13px;
+  color: #9399A5;
+  letter-spacing: 0;
+  line-height: 28px;
+}
+.cont-li{
+  margin-top: 15px;
+  scroll-x:aotu;
+  width: 1000px;
+}
+.cont-li image{
+  width: 195px;
+  height: 146px;
+}
+.recommend-descipt{
+  width: 430rpx;
+  overflow: hidden;
+  margin-top: 20rpx;
+}
+.recommend-des-title{
+  font-size: 35rpx;
+  color: #394043;
+  float: left;
+  width:160px;
+
+}
+.rem-address{
+  font-size: 30rpx;
+  color: #9c9fa1;
+}
+.style-gn{
+  float: left;
+  font-size: 26rpx;
+  color: #00AE66;
+  letter-spacing: -0.27px;
+  background-color: greenyellow;
+  border-radius: 15rpx;
+  padding: 5rpx 10rpx;
+  margin-top: 5rpx;
+  margin-left: 10rpx;
+  text-align: center;
+}
+.price{
+  font-size: 40rpx;
+  color:  #FA5741;
+  margin-top: 10rpx;
+}
+.li{
+float: left;
+}
+.permit{
+  padding: 45rpx;
+  font-size: 26rpx;
+  text-align: center;
+  color: #6B7072;
+}
+.footer{
+  overflow: hidden;
+  background: #ffffff;
+  padding: 20rpx;
+}
+.favourable{
+  float: left;
+  font-size: 32rpx;
+  color: #ffffff;
+  width: 45%;
+  height: 100rpx;
+  text-align: center;
+  line-height: 100rpx;
+  background: #FE615A;
+  margin-right: 30rpx;
+  border-radius: 100rpx;
+}
+.askP{
+  background: #3072F6;
+  float: left;
+  font-size: 32rpx;
+  color: #ffffff;
+  width: 45%;
+  height: 100rpx;
+  text-align: center;
+  line-height: 100rpx;
+  margin-right: 30rpx;
+  border-radius: 100rpx;
+}

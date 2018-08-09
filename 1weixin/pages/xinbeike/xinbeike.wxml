@@ -1,0 +1,127 @@
+<!--pages/beike/beike.wxml-->
+<view class='wrapper'>
+  <text class='top-title'>大运河孔雀城</text>
+  <text class='s-title'>商铺</text>
+  <text class='s-title'>商铺</text>
+  <text class='ss-title'>别名：大运河孔雀城温莎郡</text>
+  <view class='img'><image src="../img/QQ截图20180510160424.png"></image></view>
+  <view style='height:46px;'>
+    <view class='house'><text class='house-a'>售价</text><text class='house-b'>630万</text></view>
+    <view class='house'><text class='house-a'>房型</text><text class='house-b'>两室一厅</text></view>
+    <view class='house'><text class='house-a'>建筑面积</text><text class='house-b'>90.34㎡</text></view>
+  </view>
+  <view class='time'>开盘时间：预计五月开盘</view>
+  <view class='time'>地址：顺义新城第二十一街区</view>
+  <view class='zhekou'>
+  <text class='zhe'>全款9.8折，贷款9.9折</text>
+ </view>
+  <view class='xinxi'>
+  <text class='xin'>更多房源信息</text>
+  </view>
+  <view class='type'>
+    <text class='shiting'>四室</text>
+    <view class='list'>
+      <image src="../img/QQ截图20180510170824.png"></image>
+      <view class='house-xinxi'>
+        <text class='xinxi-a'>四室一厅两卫</text><text class='s-title'>在售</text>
+        <text class='xinxi-b'>建面191㎡/南北向</text>
+        <text class='xinxi-c'>多卫</text>
+        <text class='xinxi-d'>约1630万/套</text>
+      </view>
+    </view>
+    <view class='list'>
+      <image src="../img/QQ截图20180510170824.png"></image>
+      <view class='house-xinxi'>
+        <text class='xinxi-a'>四室一厅两卫</text><text class='s-title'>在售</text>
+        <text class='xinxi-b'>建面191㎡/南北向</text>
+        <text class='xinxi-c'>多卫</text>
+        <text class='xinxi-d'>约1630万/套</text>
+      </view>
+    </view>
+    <scroll-view class='list' scroll-x style="width: 100%">
+      <image src="../img/QQ截图20180510170824.png"></image>
+      <view class='house-xinxi'>
+        <text class='xinxi-a'>四室一厅两卫</text><text class='s-title'>在售</text>
+        <text class='xinxi-b'>建面191㎡/南北向</text>
+        <text class='xinxi-c'>多卫</text>
+        <text class='xinxi-d'>约1630万/套</text>
+      </view>
+    </scroll-view>
+  </view>
+  <view class='say'>
+    <text class='user'>用户评论</text>
+    <text class='more'>更多评论</text>
+    <view class='item'>
+      <text class='all'>全部评论</text><text class='all'>全部评论</text><text class='all'>全部评论</text><text class='all'>全部评论</text><text class='all'>全部评论</text><text class='all'>全部评论</text><text class='all'>全部评论</text>
+    </view>
+    <view class='user-say'>
+      <image src="../img/QQ截图20180510183335.png"></image>
+      <view class='name'>
+        <text class='name-a'>王晓义</text>
+        <text class='name-b'>配套3丨交通3丨绿化2</text>
+
+      </view>
+      <text style='font-size:16px;'>离市区比较远，周边设施还在建设中，配套环境什么的也算还好，户型特别方正。平常逛个街什么的还是很方便的，小区园林绿化做的…</text>
+      <text class='time-a'>全文</text>
+      <text class='time-a'>2017年07月26日</text>
+    </view>
+  </view>
+  <view class='buy'>
+    <view class='buy-all'>
+        <text class='buy-user'>买房问大家</text>
+        <text class='buy-look'>查看全部</text>
+    </view>   
+       <view class='wen'><text class='wen-img'>问</text></view>
+       <text class='da'>塔楼，户型是南北通透面积114平使用面积能不有多少？</text>
+       <text class='guanzhu'>1,982人关注 | 98个回答</text>
+       <view class='borde'></view>
+       <view class='wen'><text class='wen-img'>问</text></view>
+       <text class='da'>塔楼，户型是南北通透面积114平使用面积能不有多少？</text>
+       <text class='guanzhu'>1,982人关注 | 98个回答</text>
+       <view class='borde'></view>
+       <view class='wen'><text class='wen-img'>问</text></view>
+       <text class='da'>塔楼，户型是南北通透面积114平使用面积能不有多少？</text>
+       <text class='guanzhu'>1,982人关注 | 98个回答</text>
+       <view class='borde'></view>
+  </view>
+  <view class='aroud'>
+    <view class='aroud-all'>
+        <text class='aroud-a'>周边推荐</text>
+        <text class='aroud-b'>更多推荐</text>
+    </view>
+    <view class='cont-li'>
+      <view class='li'>
+        <image src="../img/QQ截图20180510170824.png"></image>
+        <view class='recommend-descipt'>
+          <view class='recommend-des-title'>西山甲一号山甲山甲…</view>
+          <view class='style-gn'>住宅</view>
+          <view class='rem-address'>朝阳 孙河板块</view>
+          <view class='price'>均价87152元/平 </view>
+        </view>
+      </view>
+       <view class='li'>
+        <image src="../img/QQ截图20180510170824.png"></image>
+        <view class='recommend-descipt'>
+          <view class='recommend-des-title'>西山甲一号山甲山甲…</view>
+          <view class='style-gn'>住宅</view>
+          <view class='rem-address'>朝阳 孙河板块</view>
+          <view class='price'>均价87152元/平 </view>
+        </view>
+      </view>
+       <view class='li'>
+        <image src="../img/QQ截图20180510170824.png"></image>
+        <view class='recommend-descipt'>
+          <view class='recommend-des-title'>西山甲一号山甲山甲…</view>
+          <view class='style-gn'>住宅</view>
+          <view class='rem-address'>朝阳 孙河板块</view>
+          <view class='price'>均价87152元/平 </view>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class='permit'>预售许可证： 京房售证字（2017）7号</view>
+    <view class='footer'>
+      <view class='favourable'>讯优惠</view>
+      <view class='askP'>联系售楼处</view>
+  </view>
+</view>
